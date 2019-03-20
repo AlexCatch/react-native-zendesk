@@ -1,6 +1,10 @@
 
 # react-native-zendesk
 
+react-native-zendesk is a wrapper around the V1 SDKs for Zendesk (V2 causes some issues with Expo). It's still in really early development and only supports a few features from support for Android currently.
+
+100% not safe for production yet (unless you're brave).
+
 ## Getting started
 
 `$ npm install react-native-zendesk --save`
@@ -10,16 +14,6 @@
 `$ react-native link react-native-zendesk`
 
 ### Manual installation
-
-
-#### iOS
-
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-zendesk` and add `RNZendesk.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNZendesk.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
-
-#### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
   - Add `import tech.catchpole.alex.react-native-zendesk.RNZendeskPackage;` to the imports at the top of the file
@@ -34,12 +28,6 @@
       compile project(':react-native-zendesk')
   	```
 
-
 ## Usage
-```javascript
-import RNZendesk from 'react-native-zendesk';
-
-// TODO: What to do with the module?
-RNZendesk;
-```
+TODO
   
