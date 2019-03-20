@@ -7,11 +7,11 @@ react-native-zendesk is a wrapper around the V1 SDKs for Zendesk (V2 causes some
 
 ## Getting started
 
-`$ npm install react-native-zendesk --save`
+`$ npm install @alexcatch/react-native-zendesk --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-zendesk`
+`$ react-native link @alexcatch/react-native-zendesk`
 
 ### Manual installation
 

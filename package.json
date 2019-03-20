@@ -1,5 +1,5 @@
 {
-  "name": "react-native-zendesk",
+  "name": "@alexcatch/react-native-zendesk",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
