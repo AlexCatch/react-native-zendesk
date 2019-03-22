@@ -1,42 +1,42 @@
 import { NativeModules } from 'react-native';
 
-export default class ReactNativeZendesk {
-    static core = NativeModules.ReactNativeZendeskCore;
-    static support = NativeModules.ReactNativeZendeskSupport;
+export default class RNZendesk {
+    static core = NativeModules.RNZendeskCore;
+    static support = NativeModules.RNZendeskSupport;
 
     static initialize(data) {
-        return ReactNativeZendesk.core.initialize(data);
+        return RNZendesk.core.initialize(data);
     }
 
     static setLoggable(loggable) {
-        return ReactNativeZendesk.core.setLoggable(loggable);
+        return RNZendesk.core.setLoggable(loggable);
     }
 
     static setAnonymousIdentity() {
-        return ReactNativeZendesk.core.setAnonymousIdentity();
+        return RNZendesk.core.setAnonymousIdentity();
     }
 
     static setAnonymousIdentityWithDetails(name, email) {
-        return ReactNativeZendesk.core.setAnonymousIdentityWithDetails(name, email);
+        return RNZendesk.core.setAnonymousIdentityWithDetails(name, email);
     }
 
     static setJWTIdentity(jwtIdentity) {
-        return ReactNativeZendesk.core.setJWTIdentity(jwtIdentity);
+        return RNZendesk.core.setJWTIdentity(jwtIdentity);
     }
 
     static setConfiguration(data) {
-        return ReactNativeZendesk.support.setConfiguration(data);
+        return RNZendesk.support.setConfiguration(data);
     }
 
     static startCreateTicketScreen() {
-        return ReactNativeZendesk.support.startCreateTicketScreen();
+        return RNZendesk.support.startCreateTicketScreen();
     }
 
     static showOpenTicketScreen() {
-        return ReactNativeZendesk.support.showOpenTicketScreen();
+        return RNZendesk.support.showOpenTicketScreen();
     }
 
     static showSpecificTicket(data) {
-        return ReactNativeZendesk.support.showSpecificTicket(data);
+        return RNZendesk.support.showSpecificTicket(data);
     }
 }

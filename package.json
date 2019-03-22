@@ -14,5 +14,8 @@
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.4.2"
   }
 }

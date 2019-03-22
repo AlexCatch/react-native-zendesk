@@ -20,7 +20,7 @@ public class RNZendeskCoreModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "RNZendeskCoreModule";
+        return "RNZendeskCore";
     }
 
     @ReactMethod
